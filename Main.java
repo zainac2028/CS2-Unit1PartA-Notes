@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /* (sep 18th, 2026)
 alogorithm: step by step process to accomplish a task
 pseudocode: simplified code to outline program/algorithms
@@ -39,15 +41,38 @@ or do it in one step:
 3. initialize variable --> int x = 5; String name = "zaina"
 */
 
+/* (sep 28)
+\""\ = prints quotations 
+\n\ - new line
+\\ - prints one "\" 
+when working with ints, output will be an int ( - + * /)
+ints do truncating division, meaning it removes the decimal and doesn't round (have to use double to get decimal)
+% - gives remainder 
+*/
+
+/* (sep 30)
+incrementing variable = adding one 
+decrementing = subtracting one 
+++ = shortcut, handles assignment and addition all at once (ex. myNum++;)
+-- = shortcut, handles assignment and subtractuin all at once (ex. myNum--;)
+scanner = premade class, used to obtain text input (import java.util.Scanner;)
+ */
+
+/* (oct 5)
+casting - casting allows us to change on data type to another 
+we cast using a "cast operstor" writtin in () before our expression 
+casting from a double to an int, it will truncate our double 
+casting from an int to a double will just add .0 to the end 
+double number; (positive value from somewhere)
+double negNumber (negative value from somewhere)
+ */
+
 
 public class Main {
 
    public static void main(String []args) {
-      System.out.println("Hi there!");
-      System.out.println("Hi there!");
-      System.out.println("It makes no sense to divide a number by zero!");
-      System.out.println(0/3);
 
+   
 
    }
 }
