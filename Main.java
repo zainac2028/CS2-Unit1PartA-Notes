@@ -67,12 +67,51 @@ double number; (positive value from somewhere)
 double negNumber (negative value from somewhere)
  */
 
+/* (oct 6)
+average = average + 1; (can be any number tho, for all)
+instead, average += 1; 
+math symbol first then equal sign 
+average ++; (only increaments or decreaments by 1)
+ */
+
+/* (oct 9)
+precondition: before the method runs, what must be true 
+postcondition: after the method runs, what must be true
+ */
+
+ /* (oct 20)
+ api - collection of code written by other programmers (ex. System.out.println, part of the java api)
+ attributes - refer to the data related to the class and are stored in variable (turtle context, color xPos yPos etc)
+ behaviors - refer to what instances of the class and are defined by methods (turle context, turnRight etc)
+ method - a named block of code that performs a task/process when it is called (ex. main(), can tell because of the parenthesis right after
+ procedural abstraction - allowing a programmer to use a method without knowing exactly how it works, abstracting away the details 
+ method call - when the code calls out a method's name to run it, always includes parenthesis (data inside the method parenthesis is called parameters)
+
+ */
 
 public class Main {
 
    public static void main(String []args) {
 
-   
+   int score = 0;
+   System.out.println(score); // 0
+
+   score++;                   // +1
+   System.out.println(score); // 1
+
+   score *= 2;                // ×2
+   System.out.println(score); // 2
+
+   int penalty = 5;
+   score -= penalty / 2;      // 2 - (5/2) -> 2 - 2 -> 0 (integer division)
+   System.out.println(score); // 0
+
+   score += 3;
+   System.out.println(score);
+
+   score /= 2;
+   System.out.println(score);
+
 
    }
 }
